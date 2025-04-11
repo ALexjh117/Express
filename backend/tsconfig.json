@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
-    "outDir": "backend/dist",                  // Carpeta donde se pondrán los archivos compilados
+    "outDir": "./dist",                  // Carpeta donde se pondrán los archivos compilados
     "rootDir": "./src",                  // Carpeta de origen de tus archivos TypeScript
     "lib": ["ESNext"],                   // Definir el estándar de la biblioteca para el código
     "target": "ESNext",                  // Establece la versión de JavaScript generada
-    "moduleResolution": "nodenext",      // Resolución de módulos en el estilo Node.js
+    "moduleResolution": "NodeNext",      // Resolución de módulos en el estilo Node.js
     "module": "NodeNext",                // Configuración del sistema de módulos de Node.js
-    "strict": false,                     // Desactiva las comprobaciones estrictas de tipo (opcional)
+    "strict": true,                     // Desactiva las comprobaciones estrictas de tipo (opcional)
     "sourceMap": true,                   // Genera mapas de origen para depuración
     "esModuleInterop": true,             // Habilita interoperabilidad con módulos CommonJS
     "declaration": true ,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true                 // Genera archivos `.d.ts` para los tipos de TypeScript
   },
-  "include": ["src/**/*.ts"]             // Incluye todos los archivos `.ts` en la carpeta `src`
+  "include": ["./src/**/*.ts"]             // Incluye todos los archivos `.ts` en la carpeta `src`
 }
  

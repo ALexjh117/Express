@@ -1,9 +1,9 @@
 import { Table, Column, Model, DataType, HasMany } from 'sequelize-typescript';
-import { RolUsuario } from '../models/RolUsuario';
-import { AlquilerElementos } from '../models/AlquilerElementos';
-import { Asistencia } from '../models/Asistencia';
-import { Constancia } from '../models/Constancia';
-import { ConsultaIA } from '../models/ConsultaiA';
+import { RolUsuario } from './RolUsuario';
+import { AlquilerElementos } from './AlquilerElementos';
+import { Asistencia } from './Asistencia';
+import { Constancia } from './Constancia';
+import { ConsultaIA } from './ConsultaIA';
 import { RelUsuarioEvento } from './RelUsuarioEvento';
 import { RelUsuarioFeedback } from './RelUsuarioFeedback';
 

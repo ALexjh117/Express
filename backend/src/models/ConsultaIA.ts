@@ -1,7 +1,7 @@
 import { Table, Column, Model, DataType, ForeignKey } from 'sequelize-typescript';
 import { Usuario } from './Usuario';
 
-@Table({ tableName: 'ConsultaIA' })
+@Table({ tableName: 'consultaia' })
 export class ConsultaIA extends Model {
   @Column({ primaryKey: true, autoIncrement: true })
   IdConsultaIA!: number;

@@ -1,7 +1,7 @@
 import { Table, Column, Model, DataType, ForeignKey, HasMany } from 'sequelize-typescript';
-import { PlanificacionEvento } from '../models/PlanificarEvento';
-import { Actividad } from '../models/actividad';
-import { Notificaciones } from '../models/Notificaciones';
+import { PlanificacionEvento } from './PlanificacionEvento';
+import { Actividad } from './Actividad';
+import { Notificaciones } from './Notificaciones';
 import { RelUsuarioEvento } from './RelUsuarioEvento';
 
 @Table({ tableName: 'Evento' })
